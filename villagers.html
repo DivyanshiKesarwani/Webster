@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>webpage design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+       <div class="navbar">
+          <div class="icon">
+              <h2 class="logo">villagebook</h2>
+          </div>
+
+          <div class="menu">
+            <ul>
+                <li><a href="blogs.html">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">SERVICE</a></li>
+                <li><a href="#">DESIGN</a></li>
+                <li><a href="https://www.linkedin.com/in/divyanshi-kesarwani-931405232">CONTACT US</a></li>
+            </ul>
+          </div>
+          <div class="search">
+            <input class="srch" type="search" name="" placeholder="type to text">
+            <a href="#"><button class="btn">search</button></a>
+          </div>
+
+          
+
+          </div>
+          <div class="content">
+            
+            <h1> VILLAGER$ <br><span>MINECRAFT</span></h1>
+            <p class="par">"villagers of minecraft like other civilisation evolved and
+                now wants to interact <br>with each other in the new fashion.In this 21 
+                century we need <br>to develop the village and we have to learn there <br>skills."
+            </p>
+
+            <button class="cn"><a href="https://www.linkedin.com/in/divyanshi-kesarwani-931405232">JOIN US</a></button>
+    
+            <div class="form">
+                <h2>login here</h2>
+                <input type="email" name="email" placeholder="Enter Email Here" id="Email" Required >
+                <input type="password" name="" placeholder="Enter Password Here" id="Password" Required>
+                
+           <button class="btnn" onclick="doSomething()">login</button>
+           
+            <script> 
+                function doSomething()
+                {
+                    var Email=document.getElementById("Email").value;
+                    var Password=document.getElementById("Password").value;
+                    if(Email=="divyanshikesarwani660@gmail.com" && Password=="Isha@123")
+                    {
+                        window.location.assign("project.html");
+                        alert("login successful");
+
+                    }
+                    else if(Email=="akankshasingh2240@gmail.com" && Password=="Akku@9335")
+                    {
+                        window.location.assign("project1.html");
+                        alert("login successful");
+
+                    }
+                    else {
+                        alert("Invalid information");
+                        return;
+                    }
+                    
+                }
+                </script>
+                <p class="link">Don't have an account<br>
+                <a href="Signup.html">Sign Up </a>Here</p>
+                <p class="liw">log in with</p>
+
+                
+
+                <div class="icon">
+                    
+                    <a href="https://www.facebook.com/"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a href="https://www.instagram.com/"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a href="https://twitter.com/?lang=en-in"><ion-icon name="logo-twitter"></ion-icon></a>
+                    <a href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwj0puqCwaH7AhV27XMBHW_tDaMQPAgI"><ion-icon name="logo-google"></ion-icon></a>
+                    <a href="https://www.skype.com/en/"><ion-icon name="logo-skype"></ion-icon></a>
+                   
+                </div>
+            </div>
+       </div>   
+    </div>
+    <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
